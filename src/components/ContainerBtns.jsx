@@ -13,7 +13,6 @@ function ContainerBtns({
   clearScreen,
   equal,
   valueScreen,
-  clearResult,
   valueCalc,
 }) {
   return (
@@ -22,10 +21,9 @@ function ContainerBtns({
         id="clear"
         name="C"
         value={"0"}
-        location={"1/3"}
+        location={"1/4"}
         handleClick={clearScreen}
       />
-      <BtnCalc id="delete" name="&larr;" value={0} handleClick={clearResult} />
       <BtnCalc id="divide" name="/" value={" / "} handleClick={handleClick} />
       <BtnCalc id="seven" name="7" value={7} handleClick={handleClick} />
       <BtnCalc id="eight" name="8" value={8} handleClick={handleClick} />

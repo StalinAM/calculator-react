@@ -4,7 +4,7 @@ const Screen = styled.div`
   height: 120px;
   margin: 15px 15px 0 15px;
   border-radius: 10px;
-  background-color: #0d192b;
+  background-color: #132360;
   text-align: end;
   padding: 20px;
 `;
@@ -14,14 +14,14 @@ const Value = styled.div`
   gap: 0.5em;
   font-weight: bold;
   font-size: 2rem;
-  color: #00fff7;
+  color: white;
   overflow-x: hidden;
   width: 15.63rem;
 `;
 const Result = styled.div`
   font-weight: bold;
   font-size: 2rem;
-  color: #00fff7;
+  color: white;
 `;
 function Display({ valueScreen, result }) {
   return (
